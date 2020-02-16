@@ -1,6 +1,6 @@
 # mariadb-alpine
 
-[mariadb](https://mariadb.com/) running on [Alpine Linux](https://alpinelinux.org/about/). Same options/volumes/ports available as the [official mysql image](https://hub.docker.com/_/mysql/).
+[mariadb](https://mariadb.com/) running on [Alpine Linux](https://alpinelinux.org/about/). Same options/volumes/ports available as the [official mysql image](https://hub.docker.com/_/mysql/), _except_ it only exposes port 3306, not 33060.
 
 ---
 
